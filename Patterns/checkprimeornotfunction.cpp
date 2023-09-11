@@ -1,0 +1,24 @@
+#include<iostream>
+using namespace std;
+bool checkPrimeOrNot(int n){
+    for(int i=2;i<n;i++){
+        if(n%i==0){
+            return false;
+        }
+    }
+    return true;
+
+}
+int main(){
+    int n;
+    cin>>n;
+    bool prime=checkPrimeOrNot(n);
+    if(prime){
+        cout<<"Yess Its a Prime";
+    }
+    else{
+        cout<<"Naah it not a prime";
+    }
+
+    return 0;
+}
