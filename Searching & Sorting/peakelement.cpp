@@ -18,7 +18,7 @@ int peakelement(int arr[4],int size){
 }
 
 int main(){
-    int arr[4]={0,2,1,0};
+    int arr[4]={0,1,12,0};
     int size=4;
     cout<<"Element is at "<<peakelement(arr,size)<<" position";
 
