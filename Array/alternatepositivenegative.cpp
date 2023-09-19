@@ -25,7 +25,7 @@ void alternatepositivenegative(vector<int>& ans){
 
 }
 int main(){
-    vector<int> ans{2,9,-4,-3,-7,9};
+    vector<int> ans{2,9,9,-7,-7,-7};
     printt(ans);
     alternatepositivenegative(ans);
     cout<<endl;
